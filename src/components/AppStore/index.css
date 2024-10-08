@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #dfe2e5, #ace0f9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+.input-design {
+  height: 50px;
+  width: 300px;
+  border: 2px solid lightgreen;
+  border-radius: 3px;
+}
+
+.tab-button-container {
+  display: flex;
+  padding-right: 20px;
+}
+
+.apps-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

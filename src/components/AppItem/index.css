@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.list-img-container {
+  list-style-type: none;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+.list-image {
+  height: 30px;
+}
+.app-name {
+  color: mediumorchid;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
